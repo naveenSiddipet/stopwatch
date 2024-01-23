@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  background-size: cover;
+}
+.imageE {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 600px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  background-color: white;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  font-family: Roboto;
+}
+.minutes {
+  color: #00d9f5;
+  font-size: 40px;
+  font-weight: bold;
+}
+.status {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+}
+.insidenav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+.nav2 {
+  display: flex;
+}
+.icon {
+  height: 40px;
+}
+button {
+  border: 0px;
+  background-color: transparent;
+}
+.textnav {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.symbol {
+  font-size: 60px;
+  color: black;
+}
+.count {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: 80px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.set {
+  font-size: 20px;
+  font-weight: bold;
+}
